@@ -42,7 +42,6 @@ python -m PyInstaller ^
     --clean ^
     --distpath ..\dist_exe ^
     --workpath ..\build ^
-    --specpath ..\build ^
     --add-data "app;app" ^
     --collect-all uvicorn ^
     --collect-all fastapi ^
