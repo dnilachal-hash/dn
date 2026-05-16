@@ -1,0 +1,37 @@
+HMC PAYROLL MANAGEMENT SYSTEM v2.0
+ONE-CLICK LAUNCH ON WINDOWS 10 / 11
+====================================================
+
+PREREQUISITE (one-time)
+-----------------------
+1. Install Python 3.11 from https://www.python.org/downloads/
+   IMPORTANT: tick "Add Python to PATH" on the first install screen.
+
+HOW TO START THE APP
+--------------------
+1. Double-click  start.bat  (in this folder).
+2. The first run takes 3-5 minutes (it downloads packages).
+3. Your browser will open automatically to:
+       http://localhost:8000
+4. Log in with:
+       Username:  admin
+       Password:  Admin@1234
+   (You will be forced to change it on first login.)
+
+HOW TO STOP THE APP
+-------------------
+Close the black console window, or press Ctrl+C inside it.
+
+NEXT RUNS
+---------
+Every subsequent double-click of start.bat starts in ~5 seconds
+(dependencies are cached in backend\.venv).
+
+TROUBLESHOOTING
+---------------
+- "Python is not installed": install Python 3.11 and tick
+  "Add Python to PATH", then retry.
+- Port 8000 already in use: close other apps using port 8000
+  or edit backend\run.py to use a different port.
+- To reset everything: delete the backend\.venv folder and the
+  backend\payroll.db file, then run start.bat again.
