@@ -1,0 +1,24 @@
+HMC Payroll Management System v2.0
+==================================
+Copyright (c) 2025 Homoeopathic Medical College
+
+LICENSE
+-------
+This software is licensed to the institution that has been issued
+this installer. It may be installed on machines operated by the
+institution for internal payroll operations.
+
+DISCLAIMER OF WARRANTIES
+------------------------
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.
+
+The statutory rates, slabs and ceilings shipped with this software
+are CONFIGURABLE STARTING VALUES for reference only. The institution
+is solely responsible for verifying these against current government
+notifications before processing any payroll. This software does not
+constitute legal or tax advice.
+
+By installing this software you acknowledge and accept these terms.
