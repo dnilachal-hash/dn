@@ -2,10 +2,13 @@ HMC PAYROLL MANAGEMENT SYSTEM v2.0
 ONE-CLICK LAUNCH ON WINDOWS 10 / 11
 ====================================================
 
-PREREQUISITE (one-time)
------------------------
+PREREQUISITES (one-time installs)
+----------------------------------
 1. Install Python 3.11 from https://www.python.org/downloads/
    IMPORTANT: tick "Add Python to PATH" on the first install screen.
+
+2. Install Node.js LTS from https://nodejs.org/
+   (Needed to build the React frontend on first launch only.)
 
 HOW TO START THE APP
 --------------------
