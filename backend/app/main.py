@@ -71,7 +71,12 @@ app.include_router(dashboard.router, prefix=API)
 
 
 # Serve frontend static files (built by Vite)
-frontend_dist = Path(__file__).resolve().parent.parent.parent / "frontend" / "dist"
+import os
+_env_dist = os.environ.get("FRONTEND_DIST")
+if _env_dist:
+    frontend_dist = Path(_env_dist)
+else:
+    frontend_dist = Path(__file__).resolve().parent.parent.parent / "frontend" / "dist"
 if frontend_dist.exists():
     app.mount("/assets", StaticFiles(directory=frontend_dist / "assets"), name="assets")
 
