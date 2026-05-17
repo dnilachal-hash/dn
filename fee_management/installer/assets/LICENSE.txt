@@ -1,0 +1,22 @@
+HMC Fee Management System v1.0
+================================
+Copyright (c) 2025 Homoeopathic Medical College
+
+LICENSE
+-------
+This software is licensed to the institution that has been issued
+this installer. It may be installed on machines operated by the
+institution for internal fee management operations.
+
+DISCLAIMER OF WARRANTIES
+------------------------
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.
+
+The fee structures and amounts pre-loaded in this software are
+sample data only. The institution is responsible for configuring
+correct fee structures before use.
+
+By installing this software you acknowledge and accept these terms.
